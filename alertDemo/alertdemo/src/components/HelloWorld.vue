@@ -80,6 +80,7 @@
         </a>
       </li>
     </ul>
+    <button>登录</button>
   </div>
 </template>
 
@@ -88,7 +89,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App  你好我是Vue'
+      msg: 'Welcome to Your Vue.js App'
     }
   }
 }
