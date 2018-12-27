@@ -1,0 +1,84 @@
+
+body{
+  background:#ecf0f5;
+  color: #555;
+  font-size: 14px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.clear_both:after{
+  clear: both;
+  content: '';
+  display: block;
+}
+
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+#page-content {
+  padding: 20px 20px 0;
+}
+.row {
+  margin: 0 -10px;
+}
+[class^="col-"]:not(.pad-no) {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.text-overflow { /* 超出省略号 */
+  display: block;
+  word-break:keep-all;/* 不换行 */
+  white-space:nowrap;/* 不换行 */
+  overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+  text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+
+/*原点*/
+.icon-circle{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.success{
+  background: #28a745;
+}
+.danger{
+  background: #bd2130;
+}
+.warning{
+  background: #ffc106;
+}
+.remind{
+  background: #117a8b;
+}
+
+.table-bordered thead td, .table-bordered thead th {
+  border-bottom-width: 1px;
+}
+
+.iconfont{
+  cursor: pointer;
+}
